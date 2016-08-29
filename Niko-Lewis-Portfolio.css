@@ -1,0 +1,162 @@
+html, body{
+	background-image: url(https://hd.unsplash.com/photo-1432821579285-1b649e5b1ce3);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.firstdiv{
+	width:auto;
+	height: 85px;
+	background-color: #1a1a1a;
+	opacity: 0.7;
+}
+
+/*this makesour backgraound a  cold to the point where the image would look low quality*/
+
+/*HIDE BACKGROUND IMAGE when screen too small*/
+@media screen and (max-width: 1000px){
+	html, body{
+		background-color: #2B1B17;
+		background-image: none;
+	}
+}
+
+.divtwo{
+	width: auto;
+	height: auto;
+	background-color: #BCC6CC;
+	opacity: 0.6;
+}
+
+#quote{
+	margin-top: 150px;
+	margin-bottom: 150px;
+	font-family: 'Dancing Script', cursive;
+	font-weight: bold;
+
+}
+
+.divthree{
+	width: auto;
+	height: 500px;
+	background-color: #FFF8C6/*#7D0552*/;
+	opacity: 0.8;
+
+}
+
+.box{
+	width: 300px;
+	height: 300px;
+	margin-top: 100px;
+	background-color: #461B7E;
+	opacity: 0.9;
+	margin-bottom: 100px;
+	padding: 20px;
+}
+
+#boxheading{
+	padding-top: 25px;
+	color: white;
+	font-family: 'Lobster', cursive;
+
+}
+
+#hrone{
+	width: 100px;
+	border-width: 2px;
+	border-color: black;
+	
+}
+
+#boxtext{
+	color: white;
+	font-family: 'Abel', sans-serif; 
+	text-align: left;
+}
+
+.divfour{
+	width: auto;
+	height: auto;
+	background-color: #659EC7;
+	opacity: 0.9;
+}
+
+#skills{
+	color: white;
+	font-family: 'Lobster', cursive;
+	font-weight: bolder;
+	width: auto;
+
+}
+
+#hrtwo{
+	width: 800;
+	border-width: 1px;
+	border-color: black;
+}
+
+.row{
+
+}
+
+#skillstext{
+	text-align: left;
+	color: white;
+	font-size: 25px;
+	font-family: 'Abel', sans-serif; 
+	padding: 20px;
+
+
+}
+
+#skillstext{
+	color: white;
+	font-family: 'Abel', sans-serif; 
+	text-align: left;
+	font-weight: bolder;
+	font-size: 25px;
+	font-weight: bold;
+	margin: 50px;
+
+}
+.footer{
+	background-color: black;
+	width: auto;
+	height: 200px;
+	opacity: 0.9;
+	color: WHITE;
+}
+
+.footertext{
+	color: white;
+	font-size: 25px;
+}
+.contact{
+	margin-top: 50px;
+	size: 20px;
+
+}
+
+#lkd{
+	width:75px;
+	height:75px;
+	margin-top: 50px;
+}
+
+#gth{
+	width:75px;
+	height:75px;
+	margin-top: 50px;
+}
+
+.contacttext{
+	font-size: 20px;
+}
+
+/*unsplash.com has great high quality free images
+getbootstrap.com for buttons and forms etc grid system*/
+/*
+http://www.computerhope.com/htmcolor.htm to pick images*/
+/*
+googlefonts*/
