@@ -1,0 +1,160 @@
+body {
+  color: blue;
+  display: flex;
+  flex-direction: column;
+  /*justify-content: center;*/
+  align-items: center;
+  /*cursor: url(
+    http://www.picgifs.com/food-and-drinks/food-and-drinks/eggs/food-and-drinks-eggs-252212.gif,
+    pointer
+  );*/
+}
+/*https://stackoverflow.com/questions/5703552/css-center-text-horizontally-and-vertically-inside-a-div-block*/
+
+.dynomite {
+  background: url(../images/dynamitevector.png) no-repeat center center;
+  height: 300px;
+  width: 100%;
+  /*margin: 0px 0px 0px -200px;*/
+}
+
+.container1 {
+  display: flex;
+  justify-content: space-around;
+  height: 300px;
+  width: 400px;
+  /*background: yellow;*/
+  border: 15px solid black;
+  border-radius: 30px;
+  background: white;
+  /*learned that i can overlap relative elments using negative margins*/
+  margin: -200px -800px 30px 0px;
+  font-size: 34px;
+  color: white;
+  /*cursor: pointer;*/
+
+  /*align-content: center;*/
+}
+
+.container1:hover {
+  /*cursor: url(http://www.picgifs.com/food-and-drinks/food-and-drinks/eggs/food-and-drinks-eggs-252212.gif);*/
+  cursor: url('../images/wirecutter.png') 80 0, auto;
+}
+.wire1,
+.wire2,
+.wire3 {
+  width: 30px;
+  height: 300px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 300px;
+}
+
+.color1 {
+  background: red;
+  /*background: url('../images/redwire-cut.png');*/
+}
+
+.color2 {
+  background: green;
+}
+.color3 {
+  background: blue;
+}
+
+.container2 {
+  display: flex;
+  justify-content: space-around;
+  height: 250px;
+  width: 1000px;
+  border: 2px solid black;
+}
+
+.hint1-outer,
+.hint2-outer,
+.hint3-outer {
+  width: 250px;
+  height: 220px;
+  /*border: 2px solid black;*/
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hint1-title,
+.hint2-title,
+.hint3-title {
+  margin: 15px 0 15px 0;
+  width: 80%;
+  font-size: 20px;
+  font-weight: bold;
+  border: 2px solid black;
+  text-align: center;
+  background: black;
+  color: white;
+}
+
+.hint1-text,
+.hint2-text,
+.hint3-text {
+  visibility: hidden;
+  width: 80%;
+  font-size: 20px;
+  height: 200px;
+  border: 2px solid black;
+  margin: 15px 0 15px 0;
+  background: black;
+  color: white;
+  padding: 20px 10px;
+}
+
+.modal-container {
+  display: none;
+  z-index: 1;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100%;
+}
+.modal-content {
+  width: 70%;
+  height: 70%;
+  margin: 10% auto;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*align-content: center;*/
+}
+.modal-gif {
+  width: 100%;
+  height: 70%;
+  /*margin: 10px;*/
+  /*background: url('https://media.giphy.com/media/g2YdApKEna2sg/giphy.gif');*/
+  background: url('https://media.giphy.com/media/g2YdApKEna2sg/giphy.gif')
+    no-repeat center center;
+  background-size: contain;
+  margin-bottom: 20px;
+}
+.modal-text {
+  width: 100%;
+  height: 20%;
+  /*margin: 10px;*/
+  /*background: blue;*/
+  color: black;
+  font-weight: bold;
+  /*padding: 0 70px 0 70px;*/
+
+  font-size: 24px;
+  text-align: center;
+}
+#losingImage {
+  width: 100%;
+  height: 100%;
+}
+
+#winningImage {
+  width: 100%;
+  height: 100%;
+}
